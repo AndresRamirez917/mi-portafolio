@@ -9,8 +9,8 @@ export function valida(input) {         //la funcion se exporta para usarla desd
       input.parentElement.querySelector(".input-message-error").innerHTML = "";    //quito el mensaje de error
     }else{
       input.parentElement.classList.add("input-container--invalid");
-      input.parentElement.querySelector(".input-message-error").innerHTML = mostrarMensajeDeError(tipoDeInput, input)
-     
+      input.parentElement.querySelector(".input-message-error").innerHTML = mostrarMensajeDeError(tipoDeInput, input);
+      input.parentElement.querySelector(".input-message-error").style.color = '#DD2C00';
     }
   }
 
@@ -25,7 +25,7 @@ export function valida(input) {         //la funcion se exporta para usarla desd
 
   const mensajesDeError = {
     nombre : {
-      valueMissing: "El campo nombre no puede estar vacío"
+      valueMissing: "El campo nombre no puede estar vacío",
     },
     correo : {
       valueMissing: "El campo email no puede estar vacío",
@@ -41,7 +41,7 @@ export function valida(input) {         //la funcion se exporta para usarla desd
   };
 
 const validadores = {
-    nacimiento: (input) => validarNacimiento(input),
+    textoingresado: (input) => validarTextoIngresado(input),
  };
 
   function mostrarMensajeDeError(tipoDeInput, input){
@@ -61,25 +61,3 @@ const validadores = {
 
   
   
- /* 
-  function validarNacimiento(input) {
-    const fechaCliente = new Date(input.value);
-    let mensaje = "";
-    if (!mayorDeEdad(fechaCliente)) {       //entro negando la variable para activar el mansaje
-      mensaje = "Debes tener al menos 18 años de edad";
-    }
-  
-    input.setCustomValidity(mensaje);        //personalizo los mensajes
-  }
-  
-  function mayorDeEdad(fecha) {
-    const fechaActual = new Date();
-    const diferenciaFechas = new Date(
-      fecha.getUTCFullYear() + 18,          //esto ni idea que se hacia así
-      fecha.getUTCMonth(),
-      fecha.getUTCDate()
-    );
-    return diferenciaFechas <= fechaActual;
- 
-}
-*/

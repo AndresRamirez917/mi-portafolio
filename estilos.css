@@ -112,6 +112,22 @@ form label{
     margin: 0 0 10px;      
 }
 
+input:invalid {
+    border-color: #DD2C00;
+}
+
+input:valid {
+    border-color: green;
+}
+
+textarea:invalid{
+    border-color: #DD2C00;
+}
+
+textarea:valid{
+    border-color: green;
+}
+
 
 /*===========================SECCION FOOTER LISTA REDES SOCIALES========================*/
 /*LISTA REDES SOCIALES*/
