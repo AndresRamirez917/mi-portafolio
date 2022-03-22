@@ -1,0 +1,238 @@
+body{
+    background: linear-gradient(to bottom, rgb(159, 159, 248) 10%, rgb(241, 196, 145) 30%, rgb(204, 205, 255) 60%);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+/*=======================SECCION NAVBAR=======================================*/
+
+.navbar a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+.navbar a:hover, a:focus {
+    background-size: 100% 2px;
+}
+
+/*=======================SECCION QUIEN SOY=======================================*/
+/*FOTO DE PERFIL*/
+#imagen-perfil{
+    width: 250px;  
+}
+
+/*PARRAFO QUIEN SOY*/
+.quiensoy{
+    margin-top: 20px;
+}
+
+
+/*======================SECCION HOBBIES Y SOFSKILLS================================*/
+/*MARGIN TITULO SOFTSKILLS*/
+#hobbies-softskills{
+    margin-top: -50px;
+    text-justify: auto;
+}
+
+
+/*======================SECCION FORMACION Y CURSOS=================================*/
+/*MARGIN TITULO CURSOS*/
+#cursos{
+    margin-top: -130px;
+}
+
+
+/*======================SECCION PROYECTOS===============================*/
+/*EFECTO HOVER TARJETAS PROYECTOS*/
+#proyectos .card:hover{
+    transition: 0.1s;
+    transform: scale(1.1);
+   
+}
+
+#proyectos{
+    margin-top:-50px;
+   
+    
+}
+
+#proyectos.card{
+   
+   align-content: center;
+}
+ 
+/*=====================SECCION FORM CONTACTOS======================================*/
+
+/*ALINEACION TEXTO FORM CENTRO*/
+form{
+    text-align: center;
+    color: rgb(252, 252, 252);
+    font-weight: bold;
+}
+
+/*GRADIENTE DEL FORM*/
+form {
+    /*background: linear-gradient(to bottom, rgb(204, 205, 255) 10%, rgb(241, 196, 145) 30%, #ffc 60%);*/
+    background-image: url(imagenes/Contactenos.jpg);
+   background-size: cover;
+  opacity: 0.7;
+   
+}
+
+form .input{
+border-radius: 2px;
+  border: 2px solid rgb(32, 32, 32);
+}
+
+form .text-area{
+    border-radius: 2px;
+    border: 2px solid rgb(32, 32, 32);  
+}
+
+.titulo-contactos{
+    text-align: center;
+}
+  
+.mensaje-contacto{
+    text-align: center;
+} 
+
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;      
+}
+
+
+/*===========================SECCION FOOTER LISTA REDES SOCIALES========================*/
+/*LISTA REDES SOCIALES*/
+.lista li{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+}
+
+/*QUITAR FONDO BLANCO DE LA IMAGEN DEL FOOTER*/
+#imagen{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    width: 200px;
+}
+
+/*RESPONSIVE
+@media (max-width:300px){
+    #imagen-perfil{
+        top: 500;
+      
+       
+       
+    }
+}
+*/
+
+/*===================BOTON VOLVER ARRIBA==================================*/
+/*=========================== VOLVER ARRIBA ==================================*/
+
+/*!
+ * ScrollToTop v2.0
+ * Copyright 2019 zkreations
+ * Daniel Abel M. (fb.com/danieI.abel)
+ * Licensed under MIT (github.com/zkreations/plugins/blob/master/LICENSE)
+ */
+ /*! Core (No modificar) {{*/
+    .scrollToTop {
+        outline: none;border: none;
+        font-size: 14px;cursor: pointer;
+     }
+     .scrollToTop svg {display: block;}
+     .scrollToTop {
+        position: fixed;z-index: 9999;opacity: 0;pointer-events: none;
+        transition: opacity .3s, background .3s, -webkit-transform .3s;
+        transition: transform .3s, opacity .3s, background .3s;
+        transition: transform .3s, opacity .3s, background .3s, -webkit-transform .3s;
+        -webkit-transform: translateY(-2em);
+                transform: translateY(-2em);
+     }
+     .scrollToTop.visible {
+        pointer-events: all;opacity: 1;
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+     }
+     /*}} Fin del core {{*/
+     
+     /*! Personalización */
+     /* Icono
+     -----------------------------------------*/
+     .scrollToTop svg {
+        fill: #FFFFFF; /* color */
+     }
+     /* Boton
+     -----------------------------------------*/
+     .scrollToTop {
+         background-color: #57835a; /* fondo */
+         box-shadow: 0 1px 4px rgba(0,0,0,.5); /* sombra */
+         bottom: 1em; /* separación inferior */
+         right: 1em; /* separación derecha */
+         padding: .5em; /* relleno */
+         border-radius: 4px; /* borde redondeado */
+     }
+     .scrollToTop:hover {
+         background-color: #5b885d; /* fondo (hover) */
+     }
+
+
+/*===================MEDIA QUERY==================================*/
+
+
+     @media only screen and (max-width: 600px) {
+         form{
+           background-size:auto;
+     }
+     .navbar a:hover, a:focus {
+        background-size: 30% 2px;
+    }
+
+    form {
+        /* Ruta relativa o completa a la imagen */
+        
+        /* Centramos el fondo horizontal y verticalmente */
+        background-position: center center;
+        /* El fonde no se repite */
+        background-repeat: no-repeat;
+        /* Fijamos la imagen a la ventana para que no supere el alto de la ventana */
+        background-attachment: fixed;
+        /* El fonde se re-escala automáticamente */
+        background-size: cover;
+        /* Color de fondo si la imagen no se encuentra o mientras se está cargando */
+   }
+    }
+
+    @media only screen and (max-width: 600px) {
+        form{
+          background-size:auto;
+    }
+    .navbar a:hover, a:focus {
+       background-size: 30% 2px;
+   }
+
+   form {
+       /* Ruta relativa o completa a la imagen */
+      
+       /* Centramos el fondo horizontal y verticalmente */
+       background-position: center center;
+       /* El fonde no se repite */
+       background-repeat: no-repeat;
+       /* Fijamos la imagen a la ventana para que no supere el alto de la ventana */
+       background-attachment: fixed;
+       /* El fonde se re-escala automáticamente */
+       background-size: cover;
+       /* Color de fondo si la imagen no se encuentra o mientras se está cargando */
+  }
+   }
+    

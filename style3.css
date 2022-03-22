@@ -1,0 +1,369 @@
+.navbar{
+    color: white;
+}
+
+#paquete-mes{
+    background-image: url(/imagenes/ph-01.jpg);
+height: 730px;
+}
+
+.imagen-paquetemes{
+    width: 200px;
+    display:block;
+    margin:auto;
+   
+}
+
+.imagen-paquetemes:hover{
+    transform: scale(1.50);
+}
+
+#paquete-mes h1{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    color: black;
+    text-shadow:  2px 3px rgb(119, 115, 59);
+}
+
+
+#rectangulo {
+    width: auto; 
+    background: #428bca;
+    width: 150%;
+    height: 150px;                     
+    margin-left: -25%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-image: url(/imagenes/bg-02.png);
+   
+}
+
+#rectanguloazul {
+    width: auto; 
+    background: #428bca;
+    width: 150%;
+    height: 150px;                     
+    margin-left: -25%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+#frutas{
+    margin-top: 50px;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 25%;
+  width: 1400px;
+  
+   
+   
+}
+
+.lista li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin-left: 30px;
+    margin: 5% 1%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border-color: rgb(241, 236, 236);
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 20px;
+    color: rgb(10, 10, 10); 
+    box-shadow: 2px 4px 6px rgb(14, 13, 13);
+    background: white;
+    
+}
+
+.lista li:hover{
+    border-color: rgb(214, 185, 110);
+    transition: all ease-out 0.2s;
+    transform: scale(1.05);
+    transition: 0.1s;
+    transition-timing-function: linear;
+    transition-delay: 0.1s;
+}
+
+.imagenlista{
+    height: 200px;
+    width: 350px;
+    border-radius: 8px;
+}
+
+/*
+.imagenlista{
+    height: 300px;
+    width: 300px;
+}
+*/
+.titulo-consolas{
+    font-size: 50px  !important
+    
+}
+
+.lista h3{
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+
+.tarjetas{
+    background: linear-gradient(to bottom, rgb(120, 239, 243), rgb(252, 252, 252));
+}
+
+.tarjetas h2{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.consolas li{
+    display: inline;
+    margin-left: 30px;
+    padding-left: 100px;
+    list-style:none;
+    text-decoration:none;
+}
+
+.consolas h2{
+   padding-bottom: 70px;
+    text-align: center;
+    
+}
+
+
+.lisconsolas h2{
+   
+    padding: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    list-style:none;
+    text-decoration:none;
+   
+    
+}
+
+.lisconsolas{
+    background: linear-gradient(to bottom, rgb(152, 237, 248), rgb(253, 253, 253));
+}
+
+
+
+.amibos {
+    background-image: url(./imagenes/bg-03.png);
+    background-repeat: repeat-x;
+    width: 150%;
+    height: 150px;                     
+    margin-left: -25%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.rectangulo {
+    width: auto; 
+    background-image: url(./imagenes/bg-01.png),url(./imagenes/bg-03.png);
+    width: 500%;
+    height: 600px;                      
+}
+
+.rectangulo h2{
+    color: rgb(8, 8, 8);
+   margin-left: 475px;
+  
+}
+
+.listaamibos li{
+    margin-left: 30px;
+  display: inline-block;
+    list-style:none;
+    text-decoration:none;
+}
+
+
+
+.nombre1{
+    display: inline-block;
+    margin-left: 80px;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 30px;
+    color: white;
+}
+
+.nombre2{
+    display: inline-block;
+    margin-left: 150px;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 30px;
+    color: white;
+}
+.nombre3{
+    display: inline-block;
+    margin-left: 140px;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 30px;
+    color: white;
+}
+.nombre4{
+    display: inline-block;
+    margin-left: 90px;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 30px;
+    color: white;
+}
+
+.imagenamibos:hover{
+   
+    transition: all ease-out 0.2s;
+    transform: scale(1.20);
+}
+
+.footeramibos{
+    padding: 0px;
+}
+
+/*
+#isabell{
+    width: 250px;
+    height: 400px;
+}
+*/
+.backgroundgrid{
+    background-image: url(/imagenes/bg-04.png);
+}
+
+.imagengrid1{
+    margin-top: -850px;
+    margin-left: 400px;
+    width: 200px;
+    height: 200px;
+    border-style:solid;
+    border-color: #428bca;
+}
+
+#rectangulogrid {
+    position:relative;
+    margin-top: -535px;
+    margin-left: 600px;
+    background: #428bca;
+    width: 15%;
+    height: 200px;                  
+ 
+}
+
+#rectangulogrid{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+#mensaje{
+   font-size: 30px;
+}
+
+#rectangulogridrojo {
+    position:relative;
+    margin-top: -200px;
+    margin-left: 805px;
+    background: #f01404;
+    background-image: url(/imagenes/ph-02.jpg);
+    background-size: cover;
+    width: 15%;
+    height: 200px;     
+    border-style:solid;
+    border-color: #5dca42;;                  
+ 
+}
+
+#rectangulogridverde {
+    position:relative;
+    margin-top: -200px;
+    margin-left: 1000px;
+    background: #5dca42;
+    width: 15%;
+    height: 200px;                       
+ 
+}
+
+#rectangulogridorange {
+    position:relative;
+    margin-top: 10px;
+    margin-left: 400px;
+    background-image: url(/imagenes/ph-03.jpg);
+    background-size: cover;
+    width: 15%;
+    height: 200px;                       
+    border-style:solid;
+    border-color: #ca9442;
+}
+
+#rectangulogridorange2 {
+    position:relative;
+    margin-top: -200px;
+    margin-left: 600px;
+    background: #ca9442;
+    width: 15%;
+    height: 200px;                       
+ 
+}
+
+#rectangulogridamarillo {
+    position:relative;
+    margin-top: -200px;
+    margin-left: 805px;
+    background-image: url(/imagenes/ph-04.jpg);
+    background-size: cover;
+    width: 15%;
+    height: 200px;                       
+    border-style:solid;
+    border-color: #c8ca42;
+}
+
+#rectangulogridamarillo2 {
+    position:relative;
+    margin-top: -200px;
+    margin-left: 1000px;
+    background: #c8ca42;
+    width: 15%;
+    height: 200px;                       
+ 
+}
+
+
+.imagengrid2{
+   padding-top: 0px !important;
+    margin-left: 1000px;
+    width: 250px;
+    height: 250px; 
+}
+
+.imagengrid3{
+    margin-left: 100px;
+    width: 250px;
+    height: 250px;
+}
+
+.imagengrid4{
+    margin-left: 100px;
+    width: 250px;
+    height: 250px;
+}
+
+.grid{
+    display: inline;
+}
+
+
+.titulogrid{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+
